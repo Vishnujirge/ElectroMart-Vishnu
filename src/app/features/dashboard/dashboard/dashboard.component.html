@@ -1,0 +1,29 @@
+<!-- <div class="dashboard">
+  <div class="card">
+    <h3>Total Sales</h3>
+    <p>₹1,25,000</p>
+  </div>
+
+  <div class="card">
+    <h3>Orders</h3>
+    <p>320</p>
+  </div>
+
+  <div class="card">
+    <h3>Customers</h3>
+    <p>150</p>
+  </div>
+
+  <div class="card">
+    <h3>Products</h3>
+    <p>85</p>
+  </div>
+</div> -->
+
+<div class="dashboard">
+  <mat-card class="dashboard-card" *ngFor="let item of cards">
+    <h4>{{item.title}}</h4>
+    <h2>{{item.value}}</h2>
+  </mat-card>
+
+</div>

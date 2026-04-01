@@ -1,0 +1,82 @@
+<!-- <div class="sidebar">
+  <h2 class="logo">ElectroMart</h2>
+
+  <ul>
+    <li routerLink="/" routerLinkActive="active">
+      <span class="material-icons">dashboard</span>
+      <span>Dashboard</span>
+    </li>
+
+    <li>
+      <span class="material-icons">inventory</span>
+      <span>Products</span>
+    </li>
+
+    <li>
+      <span class="material-icons">shopping_cart</span>
+      <span>Orders</span>
+    </li>
+
+    <li>
+      <span class="material-icons">people</span>
+      <span>Users</span>
+    </li>
+  </ul>
+</div> -->
+<div class="sidebar">
+  <!-- <h2 class="logo">ElectroMart</h2> -->
+  <!-- LOGO -->
+  <div class="logo">
+    <!-- <span class="material-icons icon">shopping_cart</span> -->
+     <span class="material-icons icon">storefront</span>
+    <span class="text">ElectroMart</span>
+  </div>
+
+  <ul>
+     <!-- <li routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> -->
+     <li
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      title="Dashboard"
+    >
+      <span class="material-icons">dashboard</span>
+      <span>Dashboard</span>
+    </li>
+
+    <li routerLink="/products" routerLinkActive="active">
+      <span class="material-icons">inventory</span>
+      <span>Products</span>
+    </li>
+
+    <li routerLink="/orders" routerLinkActive="active">
+      <span class="material-icons">shopping_cart</span>
+      <span>Orders</span>
+    </li>
+
+    <li routerLink="/users" routerLinkActive="active">
+      <span class="material-icons">people</span>
+      <span>Users</span>
+    </li>
+  </ul>
+
+
+  <!-- ========== -->
+  <!-- <ul>
+    <li routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+  Dashboard
+</li>
+
+<li routerLink="/products" routerLinkActive="active">
+  Products
+</li>
+
+<li routerLink="/orders" routerLinkActive="active">
+  Orders
+</li>
+
+<li routerLink="/users" routerLinkActive="active">
+  Users
+</li>
+  </ul>
+</div> -->

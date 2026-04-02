@@ -8,6 +8,7 @@ import { LayoutModule } from "./layout/layout.module";
 import { MaterialModule } from './material/material.module';
 
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     LayoutModule,
     MaterialModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
 ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatCardModule} from'@angular/material/card'
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import {MatCardModule} from'@angular/material/card'
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    MatCardModule   
+    MatCardModule,
+      MatSidenavModule,
+    MatListModule
   ]
 })
 export class DashboardModule { }
